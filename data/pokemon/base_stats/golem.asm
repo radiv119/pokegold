@@ -1,6 +1,6 @@
 	db GOLEM ; 076
 
-	db  80, 110, 130,  45,  55,  65
+	db  180, 110, 250,  45,  55,  250
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, GROUND ; type
