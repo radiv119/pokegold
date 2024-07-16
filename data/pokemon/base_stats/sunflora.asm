@@ -17,7 +17,7 @@ ELIF DEF(_SILVER)
 	INCBIN "gfx/pokemon/sunflora/front_silver.dimensions"
 ENDC
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_FAST ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
 	; tm/hm learnset

@@ -17,7 +17,7 @@ ELIF DEF(_SILVER)
 	INCBIN "gfx/pokemon/murkrow/front_silver.dimensions"
 ENDC
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_FAST ; growth rate
 	dn EGG_FLYING, EGG_FLYING ; egg groups
 
 	; tm/hm learnset
